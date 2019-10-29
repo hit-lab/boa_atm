@@ -1,8 +1,3 @@
----
-layout: home
-author_profile: true
----
-
  ## Introduction
 > The website aims to visualise the ATM review analysis using deep learning-based text classification.
 > If there is any question, please contact. 
