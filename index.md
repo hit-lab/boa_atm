@@ -1,6 +1,6 @@
 ## Introduction
-> The website aims to visualise the ATM review analysis using deep learning-based text classification. 
-> When something is important enough, you do it even if the odds are not in your favor.
+> The website aims to visualise the ATM review analysis using deep learning-based text classification.
+> If there is any question, please contact. 
 
 ### Header 3
 
