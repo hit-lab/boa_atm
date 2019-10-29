@@ -12,12 +12,3 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
-
-{::nomarkdown}
-
-<!-- 
-<h1> hello</h1>
-
--->
-
-{:/}
