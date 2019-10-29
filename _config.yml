@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 title: Bank of America Comment Analysis
+github:
+  is_project_page: false
