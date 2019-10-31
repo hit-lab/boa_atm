@@ -5,7 +5,7 @@ If there is any question, please contact the hit lab.
 
 
 ## Step1: Load your Dataset
-> Please upload the dataset (the file format: csv)
+Please upload the dataset (the file format: csv)
 
 {% include load.html %}
 
@@ -14,7 +14,7 @@ If there is any question, please contact the hit lab.
 
 
 ## Step2: Prediction Visualisation
-> The prediction output will be visualised as follows:
+The prediction output will be visualised as follows:
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -23,6 +23,4 @@ If there is any question, please contact the hit lab.
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-
 {% include output.html %}
-
