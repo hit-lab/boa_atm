@@ -1,6 +1,7 @@
 # Introduction
-The website aims to visualise the ATM review analysis using deep learning-based text classification.
+The website aims to visualise the ATM review analysis using deep learning-based text classification. You can easily follow the below instruction, and analyse the predicted feedback. 
 If there is any question, please contact the hit lab. 
+
 
 
 ## Step1: Load your Dataset
