@@ -1,19 +1,17 @@
-## Introduction
+# Introduction
 The website aims to visualise the ATM review analysis using deep learning-based text classification.
 If there is any question, please contact the hit lab. 
 
-### Load your dataset
+
+## Load your dataset
 * * *
 
 {% include load.html %}
 
 
-### Prediction Visualisation
+## Prediction Visualisation
 * * *
-
-```
-The prediction output will be visualised as follows:
-```
+> The prediction output will be visualised as follows:
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
