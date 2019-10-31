@@ -16,27 +16,4 @@ Please upload the dataset (the file format: csv)
 ## Step2: Prediction Visualisation
 The prediction output will be visualised as follows:
 
----
-title: Example
----
-<table>
-  <thead>
-    <tr>
-    {% for header in site.data.example.keys %}
-      <td>{{header}}</td>
-    {% endfor %}
-    </tr>
-  </thead>
-  <tbody>
-    {% for row in site.data.example.content %}
-    <tr>
-    {% for column in row %}
-      <td>{{column}}</td>
-    {% endfor %}
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
-
 {% include output.html %}
