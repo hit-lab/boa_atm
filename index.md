@@ -3,11 +3,14 @@
 > If there is any question, please contact. 
 
 ### Load your dataset
-{% include load.html %}
-
 * * *
 
+{% include load.html %}
+
+
 ### Prediction Visualisation
+* * *
+
 ```
 The prediction output will be visualised as follows:
 | head1        | head two          | three |
@@ -18,7 +21,5 @@ The prediction output will be visualised as follows:
 | ok           | good `zoute` drop | yumm  |
 ```
 
-
 {% include output.html %}
 
-* * *
