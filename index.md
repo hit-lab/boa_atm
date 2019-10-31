@@ -3,13 +3,13 @@ The website aims to visualise the ATM review analysis using deep learning-based 
 If there is any question, please contact the hit lab. 
 
 
-## Load your dataset
+## Step1: Load your Dataset
 * * *
 
 {% include load.html %}
 
 
-## Prediction Visualisation
+## Step2: Prediction Visualisation
 * * *
 > The prediction output will be visualised as follows:
 
