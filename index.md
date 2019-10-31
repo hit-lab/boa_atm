@@ -16,8 +16,6 @@ Please upload the dataset (the file format: csv)
 ## Step2: Prediction Visualisation
 The prediction output will be visualised as follows:
 
-hello world
-
 <table>
   <thead>
     <tr>
