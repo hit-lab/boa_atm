@@ -38,7 +38,7 @@ The prediction output will be visualised as follows:
     <tr>
       <td>{{example.Text}}</td>
       <td>{{example.label}}</td>
-      <td>{{example.label}}</td>
+      <td>{{example.predicted}}</td>
     </tr>
     {% endfor %}
   </tbody>
