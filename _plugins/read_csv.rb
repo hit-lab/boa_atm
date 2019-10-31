@@ -5,7 +5,7 @@ module CSVDataReader
   class Generator < Jekyll::Generator
     def generate(site)
       #dir = config['csv_data_source'] || '_csv'
-      dir = "_csv"
+      dir = "_data"
       base = File.join(site.source, dir)
       return unless File.directory?(base) && (!site.safe || !File.symlink?(base))
 
