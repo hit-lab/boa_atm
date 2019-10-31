@@ -9,21 +9,14 @@ Please upload the dataset (the file format: csv)
 
 {% include load.html %}
 
-The following shows the sample csv file that you can use in this system:
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
 
 * * *
 
 
 ## Step2: Prediction Visualisation
 The prediction output will be visualised as follows:
+
+> NOTE: You can also download the raw csv file (<a href="https://github.com/hit-lab/boa_atm/master/_data/example.csv">Output Download</a>
 
 <table>
   <thead>
