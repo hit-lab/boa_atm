@@ -6,7 +6,8 @@
 {% include load.html %}
 
 ### Prediction Visualisation
-{% include output.html %}
 ```
 The prediction output will be visualised as follows:
 ```
+
+{% include output.html %}
