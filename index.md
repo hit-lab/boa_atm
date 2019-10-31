@@ -16,21 +16,31 @@ Please upload the dataset (the file format: csv)
 ## Step2: Prediction Visualisation
 The prediction output will be visualised as follows:
 
+---
+title: Test
+---
+The table has {{site.data.example.rows}} rows (not including headers).
+
+The table has {{site.data.example.cols}} columns.
+
+This is the table:
+
 <table>
   <thead>
     <tr>
-    {% for header in site.data.example.keys %}
+      {% for header in site.data.example.keys %}
       <td>{{header}}</td>
-    {% endfor %}
+      {% endfor %}
     </tr>
   </thead>
   <tbody>
     {% for row in site.data.example.content %}
     <tr>
-    {% for column in row %}
+      {% for column in row %}
       <td>{{column}}</td>
-    {% endfor %}
+      {% endfor %}
     </tr>
     {% endfor %}
   </tbody>
 </table>
+
