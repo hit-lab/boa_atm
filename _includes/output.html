@@ -1,9 +1,18 @@
-<script>
-  CsvToHtmlTable.init({
-    csv_path: 'data.csv', 
-    element: 'table-container', 
-    allow_download: true,
-    csv_options: {separator: ',', delimiter: '"'},
-    datatables_options: {"paging": false}
-  });
-</script>
+<table>
+  <thead>
+    <tr>
+    {% for header in site.data.example.keys %}
+      <td>{{header}}</td>
+    {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in site.data.example.content %}
+    <tr>
+    {% for column in row %}
+      <td>{{column}}</td>
+    {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
