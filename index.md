@@ -7,3 +7,6 @@
 
 ### Prediction Visualisation
 {% include output.html %}
+```
+The prediction output will be visualised as follows:
+```
