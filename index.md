@@ -4,13 +4,15 @@ If there is any question, please contact the hit lab.
 
 
 ## Step1: Load your Dataset
-* * *
+> Please upload the dataset (the file format: csv)
 
 {% include load.html %}
 
 
-## Step2: Prediction Visualisation
 * * *
+
+
+## Step2: Prediction Visualisation
 > The prediction output will be visualised as follows:
 
 | head1        | head two          | three |
