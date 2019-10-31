@@ -9,6 +9,15 @@ Please upload the dataset (the file format: csv)
 
 {% include load.html %}
 
+The following shows the sample csv file that you can use in this system:
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
 
 * * *
 
