@@ -25,21 +25,10 @@ The following shows the sample csv file that you can use in this system:
 ## Step2: Prediction Visualisation
 The prediction output will be visualised as follows:
 
-<table>
-  <thead>
-    <tr>
-    {% for header in site.data.example.keys %}
-      <td>{{header}}</td>
-    {% endfor %}
-    </tr>
-  </thead>
-  <tbody>
-    {% for row in site.data.example.content %}
-    <tr>
-    {% for column in row %}
-      <td>{{column}}</td>
-    {% endfor %}
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<ul>
+{% for example in site.data.example %}
+  <li>
+    {{ example.label }}
+  </li>
+{% endfor %}
+</ul>
