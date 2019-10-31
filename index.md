@@ -14,6 +14,7 @@ If there is any question, please contact the hit lab.
 ```
 The prediction output will be visualised as follows:
 ```
+
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
 | ok           | good swedish fish | nice  |
