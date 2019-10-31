@@ -28,17 +28,17 @@ The prediction output will be visualised as follows:
 <table>
   <thead>
     <tr>
-    {% for header in site.data.example.keys %}
-      <td>{{header}}</td>
-    {% endfor %}
+      <td>Text</td>
+      <td>Actual Label</td>
+      <td>Predicted</td>
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.example.content %}
+  {% for example in site.data.example %}
     <tr>
-    {% for column in row %}
-      <td>{{column}}</td>
-    {% endfor %}
+      <td>{{example.Text}}</td>
+      <td>{{example.label}}</td>
+      <td>{{example.label}}</td>
     </tr>
     {% endfor %}
   </tbody>
