@@ -3,4 +3,7 @@
 > If there is any question, please contact. 
 
 ### Load your dataset
-{% include content.html %}
+{% include load.html %}
+
+### Prediction Visualisation
+{% include output.html %}
