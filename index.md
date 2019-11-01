@@ -18,13 +18,6 @@ Please upload the dataset (the file format: csv)
 
 The prediction output will be visualised as follows:
 
-<script>
-$('#example').DataTable( {
-    paging: false,
-    scrollY: 400
-} );
-</script>
-
 <table class="display">
   <thead>
     <tr>
