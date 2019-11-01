@@ -36,3 +36,6 @@ The prediction output will be visualised as follows:
     {% endfor %}
   </tbody>
 </table>
+
+{% include output.html %}
+
