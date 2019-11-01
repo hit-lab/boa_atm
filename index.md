@@ -47,9 +47,9 @@ th {
 <table class="display">
   <thead>
     <tr>
-      <td>Text</td>
-      <td>Actual Label</td>
-      <td>Predicted</td>
+      <th>Text</th>
+      <th>Actual Label</th>
+      <th>Predicted</th>
     </tr>
   </thead>
   <tbody>
