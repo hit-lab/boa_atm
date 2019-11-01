@@ -4,7 +4,7 @@ If there is any question, please contact the hit lab.
 
 
 
-## Step1: Load your Dataset
+### Step1: Load your Dataset
 Please upload the dataset (the file format: csv)
 
 {% include load.html %}
@@ -13,7 +13,7 @@ Please upload the dataset (the file format: csv)
 * * *
 
 
-## Step2: Prediction Visualisation
+### Step2: Prediction Visualisation
 ##### NOTE: You can also download the raw csv file (<a href="https://github.com/hit-lab/boa_atm/master/_data/example.csv">Output Download</a>)
 
 <style>
