@@ -77,10 +77,7 @@ table.dataTable thead .sorting_desc_disabled:before {
     {% endfor %}
   </tbody>
 </table>
-<script type="text/javascript">
-$(document).ready(function () {
-$('#dtBasicExample').DataTable();
-$('.dataTables_length').addClass('bs-select');
-});
-</script>
+$(document).ready( function () {
+    $('#dtBasicExample').DataTable();
+} );
 
