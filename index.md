@@ -16,8 +16,6 @@ Please upload the dataset (the file format: csv)
 ## Step2: Prediction Visualisation
 ##### NOTE: You can also download the raw csv file (<a href="https://github.com/hit-lab/boa_atm/master/_data/example.csv">Output Download</a>)
 
-The prediction output will be visualised as follows:
-
 <style>
 body {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
