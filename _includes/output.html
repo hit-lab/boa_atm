@@ -1,18 +1,17 @@
-<table>
-  <thead>
-    <tr>
-    {% for header in site.data.example.keys %}
-      <td>{{header}}</td>
-    {% endfor %}
-    </tr>
-  </thead>
-  <tbody>
-    {% for row in site.data.example.content %}
-    <tr>
-    {% for column in row %}
-      <td>{{column}}</td>
-    {% endfor %}
-    </tr>
-    {% endfor %}
-  </tbody>
+$('#example').DataTable( {
+    paging: false,
+    scrollY: 400
+} );
+
+<table data-order='[[ 1, "asc" ]]' data-page-length='25'>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Office</th>
+            <th>Age</th>
+            <th>Start date</th>
+            <th data-class-name="priority">Salary</th>
+        </tr>
+    </thead>
 </table>
