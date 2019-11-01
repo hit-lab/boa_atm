@@ -5,15 +5,21 @@ $('#example').DataTable( {
 } );
 </script>
 
-<table data-order='[[ 1, "asc" ]]' data-page-length='25'>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Position</th>
-            <th>Office</th>
-            <th>Age</th>
-            <th>Start date</th>
-            <th data-class-name="priority">Salary</th>
-        </tr>
-    </thead>
+<table class="display">
+  <thead>
+    <tr>
+      <td>Text</td>
+      <td>Actual Label</td>
+      <td>Predicted</td>
+    </tr>
+  </thead>
+  <tbody>
+  {% for example in site.data.example %}
+    <tr>
+      <td>{{example.Text}}</td>
+      <td>{{example.label}}</td>
+      <td>{{example.predicted}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
 </table>
