@@ -77,7 +77,7 @@ table.dataTable thead .sorting_desc_disabled:before {
   </tbody>
 </table>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script>
+<script type="text/javascript">
 $(document).ready(function () {
 $('#dtBasicExample').DataTable();
 $('.dataTables_length').addClass('bs-select');
