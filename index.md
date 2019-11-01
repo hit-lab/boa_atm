@@ -18,7 +18,7 @@ Please upload the dataset (the file format: csv)
 
 The prediction output will be visualised as follows:
 
-<table>
+<table class="display">
   <thead>
     <tr>
       <td>Text</td>
