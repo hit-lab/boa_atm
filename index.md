@@ -15,7 +15,8 @@ Please upload the dataset (the file format: csv)
 
 ### Step2: Prediction Visualisation
 ##### NOTE: You can also download the raw csv file (<a href="https://github.com/hit-lab/boa_atm/master/_data/example.csv">Output Download</a>)
-
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
 <style>
 body {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
